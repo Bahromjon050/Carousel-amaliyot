@@ -1,6 +1,6 @@
 import React from "react";
-import { BtnGroup, Card } from "./All";
-import { productValue } from "./Product";
+import { BtnGroup, Card } from "../All";
+import { productValue } from "../Product";
 
 const Carousel = () => {
   const box = () => {
@@ -19,7 +19,7 @@ const Carousel = () => {
   };
   return (
     <>
-      <h1>Carousel amaliyot</h1>
+      <h1 className="margin">Carousel amaliyot</h1>
       <div className="carousel-container">
         <BtnGroup btnPrev={btnPrev} btnNext={btnNext} />
         <div className="cards-carousel">

@@ -2,7 +2,7 @@ import React from "react";
 
 export const Card = ({ img, name, price, discount, desc }) => {
   return (
-    <div className="card-carousel">
+    <div className="card-carousel card-carousel-first">
       <div className="card-header">
         <img src={img} alt="image" />
       </div>
