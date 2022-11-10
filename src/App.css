@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  max-width: 1440px;
+  display: block;
+  margin: auto;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+.carousel-container {
+  width: 100%;
+  position: relative;
+  padding: 40px 100px;
+  scroll-behavior: smooth;
+}
+
+.cards-carousel {
+  display: flex;
+  gap: 26px;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+.card-carousel {
+  /* white-space: nowrap; */
+}
+
+.card-body {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-price {
+  text-align: right;
+}
+
+.card-body,
+.card-footer {
+  padding: 10px;
+}
+
+.card-body {
+  padding-bottom: 0;
+}
+
+.btnPrev button,
+.btnNext button {
+  top: 50%;
+  cursor: pointer;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 20px;
+  border-radius: 50%;
+  font-size: 28px;
+  color: gray;
+  background: #80808021;
+}
+
+.btnPrev button {
+  left: 0;
+}
+
+.btnNext button {
+  right: 0;
+}
