@@ -1,6 +1,5 @@
 import "./App.css";
 import Slider from "./components/slider/Slider";
-import Carousel from "./components/widthCarousel/Carousel";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -8,8 +7,7 @@ function App() {
     <div className="App">
       <Router>
         <Routes>
-          <Route path="widthcarousel" element={<Carousel />} />
-          <Route path="slider" element={<Slider />} />
+          <Route path="/" element={<Slider />} />
         </Routes>
       </Router>
     </div>

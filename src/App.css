@@ -19,7 +19,7 @@ html {
 .carousel-container {
   width: 100%;
   position: relative;
-  padding: 40px 100px;
+  padding: 40px 75px;
   scroll-behavior: smooth;
 }
 
@@ -31,7 +31,11 @@ html {
 }
 
 .card-carousel {
-  /* white-space: nowrap; */
+  width: 400px;
+}
+
+.card-header img {
+  width: 400px;
 }
 
 .card-body {
@@ -54,17 +58,18 @@ html {
 
 .btnPrev button,
 .btnNext button {
-  top: 50%;
+  top: 45%;
+  z-index: 9;
   cursor: pointer;
   position: absolute;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 15px 20px;
+  padding: 10px 15px;
   border-radius: 50%;
-  font-size: 28px;
+  font-size: 24px;
   color: gray;
-  background: #80808021;
+  background: #d5d5d5;
 }
 
 .btnPrev button {
@@ -75,6 +80,6 @@ html {
   right: 0;
 }
 
-.margin{
+.margin {
   margin-top: 50px;
 }
